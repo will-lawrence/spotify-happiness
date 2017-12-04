@@ -267,30 +267,3 @@ main('spotifydata.csv', 100)
 main('spotifydata.csv', 150)
 
 summary()
-
-# Code for bad example
-# NOT PART OF COMPLETE PROGRAM
-# Tests ommitted
-def plot_bad_plot(los: List[Song]) -> None:
-    """
-    Display a scatter plot of 25 songs with their corresponding titles (x axis) and valences (y axis)
-    """
-    # return None # body of the stub
-    # template from Visualization Module
-
-    # set the x-axis label, y-axis label, and plot title
-    pyplot.xlabel('Songs With Tempo Greater Than Input')
-    pyplot.ylabel('Valence [0.0,1.0]')
-    pyplot.title('Valence of Songs With Tempo Greater Than Input')
-
-    # If list is longer than 25 songs, shorter list of songs to 25
-    songs = shorten_list_25(los)
-
-    # plot our data
-
-    scatter = pyplot.scatter(ascending_int_list(songs), list_valence(songs), marker="o", s=100, color=('b', 'g', 'r', 'c', 'm', 'y', 'k'))
-
-    # show the plot
-    pyplot.show()
-
-    return None
