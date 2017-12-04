@@ -1,0 +1,4 @@
+song_title,artist,acousticness,danceability,duration_ms,energy,instrumentalness,key,liveness,loudness,mode,speechiness,tempo,time_signature,valence,target
+World In Motion,New Order,0.0239,0.603,270827,0.955,0.0451,1,0.119,-4.111,1,0.0458,123.922,4,0.773,1
+One Nation Under a Groove,Funkadelic,0.233,0.789,447907,0.659,0.00049,4,0.184,-12.654,0,0.0429,122.415,4,0.842,1
+Bouncin,Chief Keef,0.314,0.713,195429,0.611,0,1,0.117,-6.702,0,0.241,140.061,4,0.783,1
