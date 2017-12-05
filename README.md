@@ -12,3 +12,5 @@ Another important definition is the tempo:
 Tempo (float) - The overall estimated tempo of a track in beats per minute (BPM). In musical terminology, tempo is the speed or pace of a given piece and derives directly from the average beat duration.
 
 This topic interests me as I really enjoy upbeat and positive music. Recently, I've started to notice that faster songs generally make me more energized, but I was curious on how this faster pace is associated with happiness. I used what I learned about systematic program design to break down this problem into more concrete steps. This includes defining songs as data, plotting the necessary data, and removing songs that do not meet the criteria.
+
+### To view the final program and output, I recommend looking at the Jupyterposter.ipynb notebook. All the individual elements of the program can be found seperately in this repo
